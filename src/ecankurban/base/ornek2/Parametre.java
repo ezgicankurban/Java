@@ -7,6 +7,7 @@ public class Parametre {
 		String isimSoyisim=IsimSoyisim(ad,soyad);
 		System.out.println(isimSoyisim);
 		
+		
 	}
 
 	private String IsimSoyisim(String ad, String soyad) {
