@@ -5,7 +5,20 @@ public class Diziler2 {
 	public Diziler2() {
 		
 		//diziTers();
-		diziCokBoyutlu();
+		//diziCokBoyutlu();
+		diziCokBoyutlu2();
+		
+		
+		
+		
+	}
+
+	private void diziCokBoyutlu2() {
+		String[][] isimler= new String[10][];
+		isimler[0]= new String[5];//0. indis 5 uzunluklu bir baþka diziyi iþaret ediyor.Pointer gibi düþün.
+		System.out.println(0);//ram adresini gösterir.
+		isimler[1][2]="ezgi";
+		System.out.println(isimler[1][2]);//ikinci indis yeri bellek de ayrýlmadýðý için hata verir.
 		
 		
 		
